@@ -25,3 +25,30 @@ A position of 0 indicates head, a position of 1 indicates one node away from the
 
 ### Cycle Detection
 A linked list is said to contain a cycle if any node is visited more than once while traversing the list. Given a pointer to the head of a linked list, determine if it contains a cycle. If it does, return 1. Otherwise, return 0.
+
+
+## Topic | Stacks & Queues
+### Balanced Brackets
+A bracket is considered to be any one of the following characters: (, ), {, }, [, or ].
+
+Two brackets are considered to be a matched pair if the an opening bracket (i.e., (, [, or {) occurs to the left of a closing bracket (i.e., ), ], or }) of the exact same type. There are three types of matched pairs of brackets: [], {}, and ().
+
+A matching pair of brackets is not balanced if the set of brackets it encloses are not matched. For example, {[(])} is not balanced because the contents in between { and } are not balanced. The pair of square brackets encloses a single, unbalanced opening bracket, (, and the pair of parentheses encloses a single, unbalanced closing square bracket, ].
+
+By this logic, we say a sequence of brackets is balanced if the following conditions are met:
+    - It contains no unmatched brackets.
+    - The subset of brackets enclosed within the confines of a matched pair of brackets is also a matched pair of brackets.
+
+Given n strings of brackets, determine whether each sequence of brackets is balanced. If a string is balanced, return YES. Otherwise, return NO.
+
+### Queue Using Two Stacks
+A queue is an abstract data type that maintains the order in which elements were added to it, allowing the oldest elements to be removed from the front and new elements to be added to the rear. This is called a First-In-First-Out (FIFO) data structure because the first element added to the queue (i.e., the one that has been waiting the longest) is always the first one to be removed.
+
+A basic queue has the following operations:
+    - Enqueue: add a new element to the end of the queue.
+    - Dequeue: remove the element from the front of the queue and return it.
+
+In this challenge, you must first implement a queue using two stacks. Then process q queries, where each query is one of the following 3 types:
+    1: Enqueue element x into the end of the queue.
+    2: Dequeue the element at the front of the queue.
+    3: Print the element at the front of the queue.
