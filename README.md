@@ -67,3 +67,20 @@ The two flavors that cost 1 and 5 meet the criteria. Using 1-based indexing, the
 Given a number, find out whether it's colorful or not.
 
 When in a given number, product of every digit of a sub-sequence are different. That number is called Colorful Number.
+
+
+## Topic | Sorting Algorithms
+### Insertion Sort
+In this challenge, print the array after each iteration of the insertion sort, i.e., whenever the next element has been inserted at its correct position. Since the array composed of just the first element is already sorted, begin printing after placing the second element.
+
+### Quicksort
+When partition is called on an array, two parts of the array get 'sorted' with respect to each other. If partition is then called on each sub-array, the array will now be split into four parts. This process can be repeated until the sub-arrays are small. Notice that when partition is called on just one of the numbers, they end up being sorted.
+
+Can you repeatedly call partition so that the entire array ends up sorted?
+
+In this challenge, print your array every time your partitioning method finishes, i.e. whenever two subarrays, along with the pivot, are merged together.
+
+    - The first element in a sub-array should be used as a pivot.
+    - Partition the left side before partitioning the right side.
+    - The pivot should be placed between sub-arrays while merging them.
+    - Array of length  or less will be considered sorted, and there is no need to sort or to print them.
