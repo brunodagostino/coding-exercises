@@ -52,3 +52,18 @@ In this challenge, you must first implement a queue using two stacks. Then proce
     1: Enqueue element x into the end of the queue.
     2: Dequeue the element at the front of the queue.
     3: Print the element at the front of the queue.
+
+
+## Topic | Hash & Maps
+### Ice Cream Parlor
+Two friends like to pool their money and go to the ice cream parlor. They always choose two distinct flavors and they spend all of their money.
+
+Given a list of prices for the flavors of ice cream, select the two that will cost all of the money they have.
+
+Example. m = 6  cost = [1, 3, 4, 5, 6]
+The two flavors that cost 1 and 5 meet the criteria. Using 1-based indexing, they are at indices 1 and 4.
+
+### Colorful Number
+Given a number, find out whether it's colorful or not.
+
+When in a given number, product of every digit of a sub-sequence are different. That number is called Colorful Number.
