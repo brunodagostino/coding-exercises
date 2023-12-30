@@ -84,3 +84,25 @@ In this challenge, print your array every time your partitioning method finishes
     - Partition the left side before partitioning the right side.
     - The pivot should be placed between sub-arrays while merging them.
     - Array of length  or less will be considered sorted, and there is no need to sort or to print them.
+
+
+## Topic | Trees
+### Binary Tree Insertion
+You are given a pointer to the root of a binary search tree and values to be inserted into the tree. Insert the values into their appropriate position in the binary search tree and return the root of the updated binary tree.
+
+### Height of a Binary Tree
+The height of a binary tree is the number of edges between the tree's root and its furthest leaf.
+
+The Height of binary tree with single node is taken as zero.
+
+Node values are inserted into a binary search tree before a reference to the tree's root node is passed to your function. In a binary search tree, all nodes on the left branch of a node are less than the node value. All values on the right branch are greater than the node value.
+
+### QHeap
+Basic heap operations.
+
+There are 3 types of query:
+    - "1 v" - Add an element v to the heap.
+    - "2 v" - Delete the element v from the heap.
+    - "3" - Print the minimum of all the elements in the heap.
+    
+NOTE: It is guaranteed that the element to be deleted will be there in the heap. Also, at any instant, only distinct elements will be in the heap.
