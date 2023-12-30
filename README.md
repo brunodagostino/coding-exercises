@@ -106,3 +106,10 @@ There are 3 types of query:
     - "3" - Print the minimum of all the elements in the heap.
     
 NOTE: It is guaranteed that the element to be deleted will be there in the heap. Also, at any instant, only distinct elements will be in the heap.
+
+
+## Topic | Graphs (BFS & DFS)
+### Breath First Search
+Consider an undirected graph where each edge weighs 6 units. Each of the nodes is labeled consecutively from 1 to n.
+
+You will be given a number of queries. For each query, you will be given a list of edges describing an undirected graph. After you create a representation of the graph, you must determine and report the shortest distance to each of the other nodes from a given starting position using the breadth-first search algorithm (BFS). Return an array of distances from the start node in node number order. If a node is unreachable, return -1 for that node.
