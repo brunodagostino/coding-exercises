@@ -16,6 +16,15 @@ A left rotation operation on an array shifts each of the array's elements 1 unit
 
 Given an array a of n integers and a number, d, perform d left rotations on the array. Return the updated array to be printed as a single line of space-separated integers.
 
+### Reverse Words in a String
+Given an input string s, reverse the order of the words.
+
+A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.
+
+Return a string of the words in reverse order concatenated by a single space.
+
+Note that s may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces.
+
 
 ## Topic | Lists
 ### Insert a Node at a Position Given in a List
