@@ -35,6 +35,13 @@ A position of 0 indicates head, a position of 1 indicates one node away from the
 ### Cycle Detection
 A linked list is said to contain a cycle if any node is visited more than once while traversing the list. Given a pointer to the head of a linked list, determine if it contains a cycle. If it does, return 1. Otherwise, return 0.
 
+### Delete the Middle Node of a Linked List
+You are given the head of a linked list. Delete the middle node, and return the head of the modified linked list.
+
+The middle node of a linked list of size n is the ⌊n / 2⌋th node from the start using 0-based indexing, where ⌊x⌋ denotes the largest integer less than or equal to x.
+
+For n = 1, 2, 3, 4, and 5, the middle nodes are 0, 1, 1, 2, and 2, respectively.
+
 
 ## Topic | Stacks & Queues
 ### Balanced Brackets
@@ -64,6 +71,20 @@ In this challenge, you must first implement a queue using two stacks. Then proce
     1: Enqueue element x into the end of the queue.
     2: Dequeue the element at the front of the queue.
     3: Print the element at the front of the queue.
+
+### Removing Stars From a String
+You are given a string s, which contains stars *.
+
+In one operation, you can:
+
+Choose a star in s.
+Remove the closest non-star character to its left, as well as remove the star itself.
+Return the string after all stars have been removed.
+
+Note:
+
+The input will be generated such that the operation is always possible.
+It can be shown that the resulting string will always be unique.
 
 
 ## Topic | Hash & Maps
